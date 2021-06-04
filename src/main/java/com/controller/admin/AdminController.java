@@ -22,11 +22,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 
-/**
- * @Author: hlt
- * @Description: 管理员控制器
- * @Date: 2020/3/10 16:54
- */
+
 @Controller
 public class AdminController {
     @Autowired

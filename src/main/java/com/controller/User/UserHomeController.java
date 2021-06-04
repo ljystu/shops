@@ -16,11 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
-/**
- * @Author: hlt
- * @Description: 个人主页
- * @Date: 2020/2/23 18:07
- */
+
 @Controller
 public class UserHomeController {
     @Autowired
