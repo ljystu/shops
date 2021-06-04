@@ -66,7 +66,7 @@ public class ChatCtrl {
         String filenames = filename + "." + ext;
         File dir = new File("D:/campusshops/file");
         if (!dir.exists()) {// 判断目录是否存在
-            dir.mkdir();
+            dir.mkdirs();
         }
         file.transferTo(new File("D:\\campusshops\\file\\" + filenames));
         resUrl.put("src", "/pic/" + filenames);
