@@ -5253,7 +5253,7 @@ textarea.form-control {
         width: 100%; } }
 
 .ps-product__columns {
-  padding-bottom: 80px;
+  /*padding-bottom: 10px;*/
   margin: 0 -15px; }
   .ps-product__columns::after {
     clear: both;

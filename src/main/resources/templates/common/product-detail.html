@@ -76,7 +76,7 @@
                     <div class="ps-product__thumbnail">
                         <div class="ps-product__preview">
                             <div class="ps-product__variants">
-                                <div class="item"><img th:src="${gddetail.image}"></div>
+<!--                                <div class="item"><img th:src="${gddetail.image}"></div>-->
                                 <div class="item" th:each="imgs:${gddetail.otherimg}">
                                     <img th:src="${imgs}" alt="">
                                 </div>
@@ -169,7 +169,7 @@
                                         <div class="layui-col-md8">
                                             <div class="layui-carousel" id="test1" lay-filter="test1">
                                                 <div carousel-item="">
-                                                    <div><img th:src="${gddetail.image}" style="width:100%;height:100%"></div>
+<!--                                                    <div><img th:src="${gddetail.image}" style="width:100%;height:100%"></div>-->
                                                     <div th:each="imgs:${gddetail.otherimg}">
                                                         <img th:src="${imgs}" style="width:100%;height:100%">
                                                     </div>
