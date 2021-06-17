@@ -5609,6 +5609,7 @@ textarea.form-control {
 .ps-product--detail p {
   color: #5b5b5b; }
 
+
 @media (max-width: 991px) {
   .ps-product--detail .ps-product__thumbnail {
     display: none; }
