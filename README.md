@@ -1,1 +1,1 @@
-# Second hand traing system
+# Second hand trading system
